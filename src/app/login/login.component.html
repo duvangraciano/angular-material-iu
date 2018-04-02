@@ -12,8 +12,9 @@
                     <input matInput placeholder="Username" required>
                 </mat-form-field>
                 <mat-form-field class="imput-full-width">
-                    <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'" required>
-                    <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+                    <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'" >
+                    
+                    <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>                    
                 </mat-form-field>
 
                 <button type="submit" class="imput-full-width" mat-raised-button color="primary"><mat-icon>input</mat-icon> Login</button>

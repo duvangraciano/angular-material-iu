@@ -74,7 +74,7 @@ import { UsuarioService } from './usuario.service';
       },
       {
         path: 'dashboard',
-        //canActivate: [AutenSeguridadGuard],
+        canActivate: [AutenSeguridadGuard],
         component: DashboardComponent
       },
       {
