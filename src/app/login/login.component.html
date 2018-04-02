@@ -1,0 +1,26 @@
+
+    <mat-card class="width-card">
+        <mat-card-header class="login-header">
+            <!-- <div mat-card-avatar class="login-header-image"><i class="material-icons">account_circle</i></div> -->
+            <mat-card-title class="title-login-1">App Login</mat-card-title>
+            <mat-card-subtitle>Welcome</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            
+            <form (submit)="loginUser($event)">
+                <mat-form-field class="imput-full-width">
+                    <input matInput placeholder="Username" required>
+                </mat-form-field>
+                <mat-form-field class="imput-full-width">
+                    <input matInput placeholder="Enter your password" [type]="hide ? 'password' : 'text'" required>
+                    <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+                </mat-form-field>
+
+                <button type="submit" class="imput-full-width" mat-raised-button color="primary"><mat-icon>input</mat-icon> Login</button>
+            </form>
+
+        </mat-card-content>
+        <mat-card-actions >
+            
+        </mat-card-actions>
+    </mat-card>

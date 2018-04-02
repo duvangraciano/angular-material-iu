@@ -1,0 +1,22 @@
+.width-card {
+  max-width: 400px;
+  margin: 4em auto;
+}
+
+.login-header-image {
+  /*background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');*/
+    background-size: cover;
+}
+
+.login-header {
+    display: block;
+    text-align: center;
+}
+
+.title-login-1{
+    font-size: 1.5em;
+}
+
+.imput-full-width {
+  width: 100%;
+}
