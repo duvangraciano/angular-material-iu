@@ -1,27 +1,30 @@
-# AngularMaterialIu
+Hi there! Welcome to Cloud9 IDE!
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+To get you started, create some files, play with the terminal,
+or visit http://docs.c9.io for our documentation.
+If you want, you can also go watch some training videos at
+http://www.youtube.com/user/c9ide.
 
-## Development server
+Happy coding!
+The Cloud9 IDE team
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+¿Cómo Instalar Node.JS Mediante el uso de un PPA?
+Una alternativa en la que se puede obtener una versión más reciente de Node.js es agregar un PPA (archivo de paquete personal) mantenido por NodeSource. Ahi tendrán más versiones de Node.js que los repositorios oficiales de Ubuntu hasta la fecha, y le permite elegir entre Node.js v4.x (la versión más antigua de soporte a largo plazo, con apoyo hasta abril de 2017), v6. x (la versión más reciente LTS, que será apoyada hasta abril de 2018), y v7.x Node.js (la actual versión desarrollada de forma activa).
 
-## Code scaffolding
+En primer lugar, es necesario instalar el PPA con el fin de obtener acceso a su contenido. Asegúrate de que está en su directorio personal, y utilizar curl para recuperar el script de instalación para su versión preferida, asegurándote de reemplazar 6.x con la cadena de versión correcta:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+$>	curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
+$>	sudo bash nodesource_setup.sh
+$>	sudo apt-get install nodejs
+$>	sudo apt-get install build-essential
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+run c9.io
+ng serve --host 0.0.0.0 --port 8080 --disableHostCheck
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Push to GitHub
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+> git add *
+> git commit -m "Commit message"
+> git push origin master
